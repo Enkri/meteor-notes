@@ -4,8 +4,8 @@ import Dashboard from '../ui/Dashboard.js';
 import NotFound from '../ui/NotFound.js';
 import Login from '../ui/Login.js';
 
-import {Meteor} from 'meteor/meteor';
-import {Router, Route, browserHistory} from 'react-router';
+import { Meteor } from 'meteor/meteor';
+import { Router, Route, browserHistory } from 'react-router';
 import { Session } from 'meteor/session';
 
 const unauthenticatedPages = ['/', '/signup'];
