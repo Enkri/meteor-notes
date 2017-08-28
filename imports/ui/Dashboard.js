@@ -15,7 +15,6 @@ export default () => {
         <div className="page-content__main">
           <Editor/>
         </div>
-
       </div>
     </div>
   );
